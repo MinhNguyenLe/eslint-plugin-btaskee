@@ -1,4 +1,4 @@
-# eslint-plugin-iamminhlee
+# eslint-plugin-btaskee
 
 !!!
 
@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-iamminhlee`:
+Next, install `eslint-plugin-btaskee`:
 
 ```sh
-npm install eslint-plugin-iamminhlee --save-dev
+npm install eslint-plugin-btaskee --save-dev
 ```
 
 ## Usage
 
-Add `iamminhlee` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `btaskee` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "iamminhlee"
+        "btaskee"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "iamminhlee/rule-name": 2
+        "btaskee/rule-name": 2
     }
 }
 ```
